@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <header>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>Form</title>
+        <link rel="stylesheet" href="./style.css">
+    </header>
+    <body>
+
+        <section>
+            <video autoplay loop muted>
+                <source src="Background.mp4" type="video/mp4">
+            </video>
+
+            <div>
+                <form action="">
+                    <h1>Create Gmail Account</h1>
+
+                    <input type="text" placeholder="Full name">
+                    <br>
+                    <input type="number" placeholder="Contact Number">
+                    <br>
+                    <input type="Email" placeholder="Enter Email Id">
+                    <br>
+                    <button>Reset</button>
+                    <button>Submit</button>
+                </form>
+            </div>
+        </section>
+    </body>
+</html>
